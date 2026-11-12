@@ -55,7 +55,7 @@ def parse_server(line: str) -> tuple[str, int] | None:
 
 
 def parse_input() -> list[tuple[str, int]]:
-    print("Вводи сервера в формате host:port (например play.doshik.ru:19133).")
+    print("Вводи сервера в формате host:port (например play.example.com:19133).")
     print(f"Порт можно не указывать — по умолчанию {DEFAULT_PORT}.")
     print("Пустая строка — начать проверку.\n")
 
